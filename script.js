@@ -37,7 +37,7 @@ const codeLines = [
   "deployContract('House_v2')",
   "syncNode('SOL')",
   "RPC_Success_Logged",
-  "ca: 0xF4bb5572c320cA16bBB5D3",
+  "ca: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "TRANSACTION_SUCCESSFUL"
 ];
 
