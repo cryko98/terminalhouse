@@ -11,7 +11,7 @@ const codeLines = [
   "verifyTransaction(chain='Solana', version='v1.5.0');",
   "rpc.query('GET /blockchain/status')",
   "initializeSmartContract('TerminalHouseContract.sol');",
-  "deploy('THOUSE-Token', supply=50000000)",
+  "deploy('THOUSE-Token', supply=1b)",
   "applyTransactionFee(rate=0.0025)",
   "setValidatorParams(height=50, width=200)",
   "initStake('validator1')",
