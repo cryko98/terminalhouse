@@ -14,7 +14,7 @@ const codeLines = [
   "verifyTransaction(chain='Solana', version='v1.5.0');",
   "rpc.query('GET /blockchain/status')",
   "initializeSmartContract('TerminalHouseContract.sol');",
-  "deploy('THOUSE-Token', supply=50000000)",
+  "deploy('THOUSE-Token', supply=1b)",
   "applyTransactionFee(rate=0.0025)",
   "setValidatorParams(height=50, width=200)",
   "initStake('validator1')",
@@ -37,7 +37,7 @@ const codeLines = [
   "deployContract('House_v2')",
   "syncNode('SOL')",
   "RPC_Success_Logged",
-  "ca: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "ca: A4wxx27qyGLZEvBg8zM37QWKKdy743AfMK7PxRQLpump",
   "TRANSACTION_SUCCESSFUL"
 ];
 
