@@ -27,3 +27,35 @@ body {
   font-family: monospace;
   white-space: pre-wrap;
 }
+
+#chat {
+  margin-top: 20px;
+}
+
+#chatOutput {
+  font-family: monospace;
+  color: #00ff00;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+#chatInput {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  font-family: monospace;
+}
+
+#sendButton {
+  background-color: #00ff00;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#sendButton:hover {
+  background-color: #00cc00;
+}
