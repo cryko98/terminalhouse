@@ -1,4 +1,3 @@
-
 const output = document.getElementById("codeOutput");
 const house = document.getElementById("house");
 
@@ -40,21 +39,21 @@ const codeLines = [
 ];
 
 const houseArt = `
-      ) )        /\
-     =====      /  \
-    _|___|_____/ __ \
-   |::::::::::/ |  | \:::::::::::|
-   |:::::::::/  ====  \::::::::::|
-   |::::::::/__________\:::::::::|
+      ) )        /\\
+     =====      /  \\
+    _|___|_____/ __ \\
+   |::::::::::/ |  | \\:::::::::::|
+   |:::::::::/  ====  \\::::::::::|
+   |::::::::/__________\\:::::::::|
    |_________|  ____  |__________|
-    | ______ | / || \ | _______ |
+    | ______ | / || \\ | _______ |
     ||  |   || ====== ||   |   ||
     ||--+---|| |    | ||---+---||
     ||__|___|| |   o| ||___|___||
     |========| |____| |=========|
    (^^-^^^^^-|________|-^^^--^^^)
-   (,, , ,, ,/________\,,,, ,, ,)
-  ','',,,,' /__________\,,,',',;;
+   (,, , ,, ,/________\\,,,, ,, ,)
+  ','',,,,' /__________\\,,,',',;;
 `;
 
 let index = 0;
@@ -63,11 +62,9 @@ function typeNextLine() {
   if (index < codeLines.length) {
     const line = codeLines[index];
     if (line.includes("ca:")) {
-      output.innerHTML += `<span style="color:lime;font-weight:bold;">${line}</span>
-`;
+      output.innerHTML += `<span style="color:lime;font-weight:bold;">${line}</span>\n`;
     } else {
-      output.innerHTML += line + "
-";
+      output.innerHTML += line + "\n";
     }
     index++;
     setTimeout(typeNextLine, 80);
