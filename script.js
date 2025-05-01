@@ -37,7 +37,7 @@ const codeLines = [
   "deployContract('House_v2')",
   "syncNode('SOL')",
   "RPC_Success_Logged",
-  "ca: A4wxx27qyGLZEvBg8zM37QWKKdy743AfMK7PxRQLpump",
+  "ca: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "TRANSACTION_SUCCESSFUL"
 ];
 
@@ -75,8 +75,6 @@ const houseArt = `
  ".'.'." ." '.". @/- - --- -- - -\@ '.".'.".'.".'."
  ". '' ".".".'.'@/ - -- -- -- -- -\@".'..'".'."'.'.'
 '.".".''.".''."@/ -- --- --- -- - -\@.".''.".''.".'".
-
-
 `;
 
 let index = 0;
