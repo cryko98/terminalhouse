@@ -8,24 +8,22 @@ body {
 }
 
 #codeOutput {
-  text-align: left;
   font-size: 14px;
   white-space: pre-wrap;
   max-width: 100%;
-  padding-left: 10px;
+  padding: 10px;
+  border: 1px solid #00ff00;
+  margin-bottom: 20px;
+  background-color: #111;
 }
 
 .house {
   font-size: 15px;
   color: #00ff00;
-  margin-top: 20px;
   white-space: pre;
-  padding-left: 10px;
-}
-
-#house {
-  font-family: monospace;
-  white-space: pre-wrap;
+  padding: 10px;
+  border: 1px solid #00ff00;
+  background-color: #111;
 }
 
 #chat {
@@ -37,10 +35,14 @@ body {
   color: #00ff00;
   margin-bottom: 10px;
   white-space: pre-wrap;
+  min-height: 100px;
+  padding: 10px;
+  background-color: #111;
+  border: 1px solid #00ff00;
 }
 
 #chatInput {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   background-color: #333;
   color: #00ff00;
@@ -49,11 +51,14 @@ body {
 }
 
 #sendButton {
+  width: 28%;
   background-color: #00ff00;
   color: black;
   padding: 10px;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+  margin-left: 2%;
 }
 
 #sendButton:hover {
